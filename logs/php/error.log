@@ -1,0 +1,354 @@
+[05-Oct-2020 12:57:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 21
+[05-Oct-2020 13:13:00 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 18
+[05-Oct-2020 13:16:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_submen_page() in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:16
+Stack trace:
+#0 C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\class-wp-hook.php(287): add_my_custom_menu('')
+#1 C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#4 C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\menu.php(327): require_once('C:\\Users\\Naz\\Lo...')
+#5 C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php(158): require('C:\\Users\\Naz\\Lo...')
+#6 {main}
+  thrown in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 16
+[05-Oct-2020 13:20:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 29
+[06-Oct-2020 12:45:28 UTC] PHP Warning:  Use of undefined constant _File_ - assumed '_File_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:45:28 UTC] PHP Stack trace:
+[06-Oct-2020 12:45:28 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin-ajax.php:0
+[06-Oct-2020 12:45:28 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin-ajax.php:22
+[06-Oct-2020 12:45:28 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:45:28 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:45:28 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:45:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_url() in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:16
+Stack trace:
+#0 C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php(377): include_once()
+#1 C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php(77): require_once('C:\\Users\\Naz\\Lo...')
+#2 C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php(37): require_once('C:\\Users\\Naz\\Lo...')
+#3 C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Naz\\Lo...')
+#4 {main}
+  thrown in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 16
+[06-Oct-2020 12:45:31 UTC] PHP Warning:  Use of undefined constant _File_ - assumed '_File_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:45:31 UTC] PHP Stack trace:
+[06-Oct-2020 12:45:31 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:45:31 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:45:31 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:45:31 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:45:31 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:45:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_url() in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:16
+Stack trace:
+#0 C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php(377): include_once()
+#1 C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php(77): require_once('C:\\Users\\Naz\\Lo...')
+#2 C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php(37): require_once('C:\\Users\\Naz\\Lo...')
+#3 C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Naz\\Lo...')
+#4 {main}
+  thrown in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 16
+[06-Oct-2020 12:45:45 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 18
+[06-Oct-2020 12:45:53 UTC] PHP Parse error:  syntax error, unexpected 'add_my_custom_menu' (T_STRING), expecting '(' in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 20
+[06-Oct-2020 12:46:56 UTC] PHP Warning:  Use of undefined constant _File_ - assumed '_File_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:46:56 UTC] PHP Stack trace:
+[06-Oct-2020 12:46:56 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:46:56 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:46:56 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:46:56 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:46:56 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:46:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_url() in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:16
+Stack trace:
+#0 C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php(377): include_once()
+#1 C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php(77): require_once('C:\\Users\\Naz\\Lo...')
+#2 C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php(37): require_once('C:\\Users\\Naz\\Lo...')
+#3 C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Naz\\Lo...')
+#4 {main}
+  thrown in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 16
+[06-Oct-2020 12:47:30 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:47:30 UTC] PHP Stack trace:
+[06-Oct-2020 12:47:30 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:47:30 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:47:30 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:47:30 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:47:30 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:47:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_url() in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:16
+Stack trace:
+#0 C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php(377): include_once()
+#1 C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php(77): require_once('C:\\Users\\Naz\\Lo...')
+#2 C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php(37): require_once('C:\\Users\\Naz\\Lo...')
+#3 C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Naz\\Lo...')
+#4 {main}
+  thrown in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 16
+[06-Oct-2020 12:48:09 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:48:09 UTC] PHP Stack trace:
+[06-Oct-2020 12:48:09 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:48:09 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:48:09 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:48:09 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:48:09 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:49:08 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:49:08 UTC] PHP Stack trace:
+[06-Oct-2020 12:49:08 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:49:08 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:49:08 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:49:08 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:49:08 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:49:18 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:49:18 UTC] PHP Stack trace:
+[06-Oct-2020 12:49:18 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:49:18 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:49:18 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:49:18 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:49:18 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:49:25 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:49:25 UTC] PHP Stack trace:
+[06-Oct-2020 12:49:25 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:49:25 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:49:25 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:49:25 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:49:25 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:49:27 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:49:27 UTC] PHP Stack trace:
+[06-Oct-2020 12:49:27 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:49:27 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:49:27 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:49:27 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:49:27 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:49:29 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:49:29 UTC] PHP Stack trace:
+[06-Oct-2020 12:49:29 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:49:29 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:49:29 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:49:29 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:49:29 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:50:15 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:50:15 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:15 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:15 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:50:15 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:50:15 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:50:15 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:50:15 UTC] PHP Warning:  Use of undefined constant custom - assumed 'custom' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:50:15 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:15 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:15 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:50:15 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:50:15 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:50:15 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:50:15 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:50:15 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:15 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:15 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:50:15 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:50:15 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:50:15 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:50:15 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:50:15 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:15 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:15 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:50:15 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:50:15 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:50:15 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:50:15 UTC] PHP Warning:  Use of undefined constant plugin - assumed 'plugin' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:50:15 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:15 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:15 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:50:15 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:50:15 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:50:15 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:50:15 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:50:15 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:15 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:15 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:50:15 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:50:15 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:50:15 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:50:15 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:50:15 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:15 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:15 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:50:15 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:50:15 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:50:15 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:50:15 UTC] PHP Warning:  file(0php): failed to open stream: No such file or directory in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:50:15 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:15 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:15 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:50:15 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:50:15 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:50:15 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:50:15 UTC] PHP   6. file() C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:15
+[06-Oct-2020 12:50:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:15) in C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\functions.php on line 6270
+[06-Oct-2020 12:50:15 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:15 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:15 UTC] PHP   2. do_action() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:175
+[06-Oct-2020 12:50:15 UTC] PHP   3. WP_Hook->do_action() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\plugin.php:478
+[06-Oct-2020 12:50:15 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\class-wp-hook.php:311
+[06-Oct-2020 12:50:15 UTC] PHP   5. send_frame_options_header() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\class-wp-hook.php:285
+[06-Oct-2020 12:50:15 UTC] PHP   6. header() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\functions.php:6270
+[06-Oct-2020 12:50:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:15) in C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\includes\misc.php on line 1310
+[06-Oct-2020 12:50:15 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:15 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:15 UTC] PHP   2. do_action() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:175
+[06-Oct-2020 12:50:15 UTC] PHP   3. WP_Hook->do_action() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\plugin.php:478
+[06-Oct-2020 12:50:15 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\class-wp-hook.php:311
+[06-Oct-2020 12:50:15 UTC] PHP   5. wp_admin_headers() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\class-wp-hook.php:287
+[06-Oct-2020 12:50:15 UTC] PHP   6. header() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\includes\misc.php:1310
+[06-Oct-2020 12:50:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:15) in C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin-header.php on line 9
+[06-Oct-2020 12:50:15 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:15 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:15 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:239
+[06-Oct-2020 12:50:15 UTC] PHP   3. header() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin-header.php:9
+[06-Oct-2020 12:50:32 UTC] PHP Warning:  file(wp-custom-plugin.php): failed to open stream: No such file or directory in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:50:32 UTC] PHP Stack trace:
+[06-Oct-2020 12:50:32 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:50:32 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:50:32 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:50:32 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:50:32 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:50:32 UTC] PHP   6. file() C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:15
+[06-Oct-2020 12:51:33 UTC] PHP Warning:  file(wp-custom-plugin.php): failed to open stream: No such file or directory in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:51:33 UTC] PHP Stack trace:
+[06-Oct-2020 12:51:33 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin-ajax.php:0
+[06-Oct-2020 12:51:33 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin-ajax.php:22
+[06-Oct-2020 12:51:33 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:51:33 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:51:33 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:51:33 UTC] PHP   6. file() C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:15
+[06-Oct-2020 12:51:49 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:51:49 UTC] PHP Stack trace:
+[06-Oct-2020 12:51:49 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:51:49 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:51:49 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:51:49 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:51:49 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:51:49 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 18
+[06-Oct-2020 12:51:49 UTC] PHP Stack trace:
+[06-Oct-2020 12:51:49 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:51:49 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:51:49 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:51:49 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:51:49 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:51:50 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:51:50 UTC] PHP Stack trace:
+[06-Oct-2020 12:51:50 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:51:50 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:51:50 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:51:50 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:51:50 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:51:50 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 18
+[06-Oct-2020 12:51:50 UTC] PHP Stack trace:
+[06-Oct-2020 12:51:50 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:51:50 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:51:50 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:51:50 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:51:50 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:52:05 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:52:05 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:05 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:05 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:52:05 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:52:05 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:52:05 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:52:05 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 18
+[06-Oct-2020 12:52:05 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:05 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:05 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:52:05 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:52:05 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:52:05 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:52:06 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:52:06 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:06 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:06 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:52:06 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:52:06 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:52:06 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:52:06 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 18
+[06-Oct-2020 12:52:06 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:06 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:06 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:52:06 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:52:06 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:52:06 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:52:06 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:52:06 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:06 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:06 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:52:06 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:52:06 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:52:06 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:52:06 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 18
+[06-Oct-2020 12:52:06 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:06 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:06 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:52:06 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:52:06 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:52:06 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:52:07 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:52:07 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:07 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:07 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:52:07 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:52:07 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:52:07 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:52:07 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 18
+[06-Oct-2020 12:52:07 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:07 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:07 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:52:07 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:52:07 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:52:07 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:52:21 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:52:21 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:21 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:21 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:52:21 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:52:21 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:52:21 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:52:21 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 18
+[06-Oct-2020 12:52:21 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:21 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:21 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:52:21 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:52:21 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:52:21 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 12:52:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:18) in C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\functions.php on line 6270
+[06-Oct-2020 12:52:21 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:21 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:21 UTC] PHP   2. do_action() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:175
+[06-Oct-2020 12:52:21 UTC] PHP   3. WP_Hook->do_action() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\plugin.php:478
+[06-Oct-2020 12:52:21 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\class-wp-hook.php:311
+[06-Oct-2020 12:52:21 UTC] PHP   5. send_frame_options_header() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\class-wp-hook.php:285
+[06-Oct-2020 12:52:21 UTC] PHP   6. header() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\functions.php:6270
+[06-Oct-2020 12:52:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:18) in C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\includes\misc.php on line 1310
+[06-Oct-2020 12:52:21 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:21 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:21 UTC] PHP   2. do_action() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:175
+[06-Oct-2020 12:52:21 UTC] PHP   3. WP_Hook->do_action() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\plugin.php:478
+[06-Oct-2020 12:52:21 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\class-wp-hook.php:311
+[06-Oct-2020 12:52:21 UTC] PHP   5. wp_admin_headers() C:\Users\Naz\Local Sites\mtech\app\public\wp-includes\class-wp-hook.php:287
+[06-Oct-2020 12:52:21 UTC] PHP   6. header() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\includes\misc.php:1310
+[06-Oct-2020 12:52:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:18) in C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin-header.php on line 9
+[06-Oct-2020 12:52:21 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:21 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:21 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:239
+[06-Oct-2020 12:52:21 UTC] PHP   3. header() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin-header.php:9
+[06-Oct-2020 12:52:57 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 15
+[06-Oct-2020 12:52:57 UTC] PHP Stack trace:
+[06-Oct-2020 12:52:57 UTC] PHP   1. {main}() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:0
+[06-Oct-2020 12:52:57 UTC] PHP   2. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php:34
+[06-Oct-2020 12:52:57 UTC] PHP   3. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php:37
+[06-Oct-2020 12:52:57 UTC] PHP   4. require_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php:77
+[06-Oct-2020 12:52:57 UTC] PHP   5. include_once() C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php:377
+[06-Oct-2020 13:02:36 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 42
+[06-Oct-2020 13:22:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_url() in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:18
+Stack trace:
+#0 C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php(377): include_once()
+#1 C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php(77): require_once('C:\\Users\\Naz\\Lo...')
+#2 C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php(37): require_once('C:\\Users\\Naz\\Lo...')
+#3 C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Naz\\Lo...')
+#4 {main}
+  thrown in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 18
+[06-Oct-2020 13:22:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_url() in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php:18
+Stack trace:
+#0 C:\Users\Naz\Local Sites\mtech\app\public\wp-settings.php(377): include_once()
+#1 C:\Users\Naz\Local Sites\mtech\app\public\wp-config.php(77): require_once('C:\\Users\\Naz\\Lo...')
+#2 C:\Users\Naz\Local Sites\mtech\app\public\wp-load.php(37): require_once('C:\\Users\\Naz\\Lo...')
+#3 C:\Users\Naz\Local Sites\mtech\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Naz\\Lo...')
+#4 {main}
+  thrown in C:\Users\Naz\Local Sites\mtech\app\public\wp-content\plugins\custom-plugin\wp-custom-plugin.php on line 18
